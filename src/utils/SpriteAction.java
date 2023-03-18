@@ -1,0 +1,38 @@
+package utils;
+
+public enum SpriteAction {
+    STAND_ONE("1X8X23X34"),
+    STAND_TWO("25X8X23X34"),
+    UP_ONE("49X0X14X42"),
+    UP_TWO("64X0X14X42"),
+    DOWN_ONE("79X25X32X16"),
+    DOWN_TWO("112X26X32X16"),
+    RUN_ONE("1X43X16X35"),
+    RUN_TWO("18X43X19X35"),
+    RUN_THREE("38X43X20X35"),
+    RUN_FOUR("59X43X16X35"),
+    RUN_FIVE("78X43X18X35"),
+    RUN_SIX("95X43X20X35"),
+    JUMP_ONE("95X52X16X20"),
+    JUMP_TWO("135X52X20X20"),
+    JUMP_THREE("157X52X16X20"),
+    JUMP_FOUR("175X52X20X20"),
+    DIE_ONE("78X94X23X15"),
+    DIE_TWO("103X89X15X23"),
+    DIE_THREE("121X94X23X15"),
+    DIE_FOUR("149X94X15X23"),
+    DIE_FIVE("168X103X32X10"),
+    UP_RUN_ONE("1X112X16X35"),
+    UP_RUN_TWO("18X112X19X35"),
+    UP_RUN_THREE("38X112X20X35"),
+    DOWN_RUN_ONE("1X211X20X35"),
+    DOWN_RUN_TWO("22X211X21X35"),
+    DOWN_RUN_THREE("44X211X21X35");
+
+
+    public final String coordinates;
+    private SpriteAction(String coordinates){
+        this.coordinates = coordinates;
+    }
+
+}
